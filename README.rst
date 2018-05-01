@@ -10,6 +10,18 @@ Detailed documentation is in the "docs" directory.
 Quick start
 -----------
 
+Prerequisites:
+
+First clone the repository in your local system in any folder (eg. C:/wamp64/www/)
+
+Then go to the directory where you want install this app (eg. C:/wamp64/www/mysite/), then run this command to install the app
+
+	pip install --user C:/wamp64/www/ut-django-polls/dist/django-polls-0.1.tar.gz
+
+Note: To uninstall run
+
+	pip uninstall ut-django-polls
+
 1. Add "polls" to your INSTALLED_APPS setting like this::
 
     INSTALLED_APPS = [
